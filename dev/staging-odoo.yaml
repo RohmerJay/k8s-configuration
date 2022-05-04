@@ -51,7 +51,7 @@ metadata:
   namespace: staging
   name: ingress-odoo
   annotations:
-    alb.ingress.kubernetes.io/subnets: subnet-0ee08e18250ff6d88	, subnet-06aa5a73100274abc
+    alb.ingress.kubernetes.io/subnets: subnet-05f7915a4c078ee2f	, subnet-0639f32ec0dd31944
     alb.ingress.kubernetes.io/security-groups: eks-cluster-sg-newlogic-dev-eks-1672543686 , newlogic-dev-alb-sg
     alb.ingress.kubernetes.io/healthcheck-protocol: HTTP 
     alb.ingress.kubernetes.io/healthcheck-port: traffic-port
